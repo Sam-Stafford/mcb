@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Maidenhead Concert Band - Media</title>
+        <meta name="description" content="Photo gallery, audio recordings, and video performances of the Maidenhead Concert Band."/>
+        <link rel="canonical" href="http://maidenheadconcertband.co.uk/media.html"/>
+        <style>
+            body {
+                margin: 0;
+                background: #f8f8f8;
+                color: #333333;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                line-height: 1.8;
+                text-shadow: 0 1px 0 #ffffff;
+            }
+            .container {
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            header {
+                background-color: #0056b3;
+                color: #ffffff;
+                text-align: center;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/banner.jpg');
+                background-size: 80%; 
+                background-position: center center; 
+                background-repeat: no-repeat; 
+                padding: 10px 0; 
+            }
+            header h1 {
+                margin-top: 0; 
+                margin-bottom: 10px; 
+                font-size: 4em; 
+            }
+            header p {
+                margin-top: 0;
+                font-size: 1.6em; 
+            }
+            nav {
+                background-color: #004085;
+                padding: 10px 0;
+                text-align: center;
+            }
+            nav ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li {
+                margin: 0 15px;
+            }
+            nav ul li a {
+                color: #ffffff;
+                text-decoration: none;
+                border-bottom: 2px solid transparent;
+                transition: border-bottom 0.3s ease;
+            }
+            nav ul li a:hover {
+                border-bottom: 2px solid #ffffff;
+            }
+            section {
+                background-color: #ffffff;
+                margin-bottom: 20px;
+                padding: 30px;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            }
+            section h2 {
+                color: #0056b3;
+                font-size: 2em;
+                margin-top: 0;
+                border-bottom: 2px solid #e0e0e0;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+            }
+            section h3 {
+                margin-block-end: 0
+            }
+
+            a {
+                color: #0056b3;
+                text-decoration: none;
+                border-bottom: 1px solid #0056b3;
+                transition: color 0.3s ease, border-bottom 0.3s ease;
+            }
+            a:hover {
+                color: #004085;
+                border-bottom: 1px solid #004085;
+            }
+            footer {
+                background-color: #333333;
+                color: #ffffff;
+                text-align: center;
+                padding: 20px 0;
+                font-size: 0.9em;
+                margin-top: 40px;
+            }
+            footer p {
+                margin: 0;
+            }
+            .text-center {
+                text-align: center;
+            }
+            @media (max-width: 768px) {
+                .container {
+                    padding: 15px;
+                }
+                header h1 {
+                    font-size: 2em;
+                }
+                nav ul {
+                    flex-direction: column;
+                }
+                nav ul li {
+                    margin: 5px 0;
+                }
+
+            }
+
+            /* --- Media Page Specific Styles --- */
+
+            /* Gallery Grid */
+            .gallery-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+                gap: 15px;
+                margin-top: 20px;
+            }
+
+            .gallery-item {
+                border: 1px solid #e0e0e0;
+                border-radius: 5px;
+                overflow: hidden;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+                transition: transform 0.2s ease-in-out;
+            }
+
+            .gallery-item:hover {
+                transform: translateY(-5px);
+            }
+
+            .gallery-item img {
+                width: 100%;
+                height: 200px; /* Fixed height for consistency */
+                object-fit: cover; /* Ensures images cover the area without distortion */
+                display: block;
+            }
+
+            .gallery-item p {
+                padding: 10px;
+                margin: 0;
+                font-size: 0.9em;
+                color: #555;
+                background-color: #f9f9f9;
+            }
+
+            /* Audio/Video Players */
+            .media-player {
+                margin-bottom: 0px;
+                background-color: #f0f0f0;
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid #e0e0e0;
+            }
+
+            .media-player h3 {
+                margin-top: 0;
+                color: #004085;
+                font-size: 1em;
+            }
+            .media-player p {
+                margin-block-start: 0;
+                margin-block-end: 0;
+
+            }
+
+            audio, video {
+                width: 100%;
+                max-width: 600px; /* Limit width for embedded players */
+                display: block;
+                margin: 1px auto;
+            }
+
+            .video-embed {
+                position: relative;
+                padding-bottom: 56.25%; /* 16:9 aspect ratio */
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+                background: #000;
+                margin-bottom: 20px;
+            }
+
+            .video-embed iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Maidenhead Concert Band</h1>
+                <p>A vibrant community band for all ages</p>
+            </div>
+        </header>
+
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#audio">Audio</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="container">
+            <section id="gallery">
+                <h2>Photo Gallery</h2>
+                <p>Browse through some of our favourite moments from rehearsals, concerts, and community events!</p>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <a href="images/WooburnSep2022.jpg" target="_blank">
+                            <img src="images/WooburnSep2022.jpg" alt="Band Performance at Wooburn Park Sept 2022">
+                        </a>
+                        <p>Band Performance at Wooburn Park Sept 2022</p>
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="images/BandBand.jpg" target="_blank">
+                            <img src="images/BandBand.jpg" alt="The band within a band!">
+                        </a>
+                        <p>The band within a band!
+
+Peter Ripper, Barry Kirton, Alan Gout and Dave Richmond, at Jo's wedding</p>
+                    </div>
+
+                    <div class="gallery-item">
+                          <a href="images/NordenJuly2012.jpg" target="_blank">
+                            <img src="images/NordenJuly2012.jpg" alt="The band's founder, Peter Ripper (2012)">
+                        </a>
+                        <p>The band's founder, Peter Ripper (2012)</p>
+
+                    </div>
+
+                    <div class="gallery-item">
+                        <a href="images/NordenDec2011.jpg" target="_blank">
+                            <img src="images/NordenDec2011.jpg" alt="Our annual christmas concert at Norden Farm, 2011">
+                        </a>
+                        <p>Our annual christmas concert at Norden Farm, 2011</p>
+                    </div>
+
+                    <!-- Add more gallery items as needed -->
+                </div>
+            </section>
+
+            <section id="audio">
+                <h2>Audio Recordings</h2>
+                <p>Listen to some of our past performances and rehearsals. These recordings capture the spirit and sound of the Maidenhead Concert Band.</p>
+
+                <div class="media-player">
+                    <h3>"Fascinating Gershwin:" - Live Performance</h3>
+                    <audio controls>
+                        <source src="audio/01_FascinatingGershwin.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>A lively piece recorded during our summer concert.</p>
+                </div>
+
+                <div class="media-player">
+                    <h3>"Misty" (Garner)</h3>
+                    <audio controls>
+                        <source src="audio/02_Misty.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>Alto sax solo: Peter Ripper</p>
+                </div>
+                <!-- Add more audio players as needed -->
+            </section>
+
+            <section id="video">
+                <h2>Video Performances</h2>
+                <p>Watch us in action! Here are some video highlights from our concerts and events.</p>
+
+                    <p>Maidenhead Concert Band taking part in the Queen's Golden Jubilee parade - Windsor, 2002.</p>
+                </div>
+
+                <div class="media-player">
+                    <h3>Golden Jubilee Parade - Windsor 2002</h3>
+                    <video controls poster="videos/windsor.png">
+                        <source src="videos/crocker.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Maidenhead Concert Band taking part in the Queen's Golden Jubilee parade - Windsor, 2002..</p>
+                </div>
+
+                <div class="media-player">
+                    <h3>Midsomer Murders - July 2007</h3>
+                    <video controls poster="videos/crocker.png">
+                        <source src="videos/crocker2007.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Maidenhead Concert Band marching at Crocker End for an episode of Midsomer Murders - July 2007.</p>
+                </div>
+                <!-- Add more video players/embeds as needed -->
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p><strong>Copyright © 2024 Maidenhead Concert Band</strong>. The MCB is a local community group and does not profit from these activities.</p>
+                <p>Designed with passion for the community.</p>
+            </div>
+        </footer>
+    </body>
+</html>
