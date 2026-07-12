@@ -53,7 +53,7 @@ nav ul {
     flex-wrap: wrap; /* Allows items to wrap to the next line if space is limited */
     justify-content: center; /* Centres the navigation items horizontally */
     gap: 15px; /* Adds space between navigation items */
-    /* Ensure flex-direction is row, though it's the default for flex */
+    /* Explicitly ensure horizontal direction, though it's the default for flex */
     flex-direction: row;
 }
 
@@ -128,26 +128,28 @@ footer p {
     text-align: center;
 }
 
-/* Responsive Adjustments */
+/* Responsive Adjustments for Font Sizes */
+/* This media query applies to screens up to 768px wide */
 @media (max-width: 768px) {
     .container {
         padding: 15px;
     }
     header h1 {
-        font-size: 2em;
+        font-size: 2em; /* Adjust header H1 for tablets/smaller desktops */
     }
-    /* Ensure navigation remains horizontal */
-    nav ul {
-        flex-direction: row; /* Explicitly set to row for smaller screens */
+    header p {
+        font-size: 1.4em; /* Adjust header P for tablets/smaller desktops */
+    }
+    section h2 {
+        font-size: 1.8em; /* Adjust section headings for tablets/smaller desktops */
     }
 }
 
+/* This media query applies to very small screens (e.g., mobile phones) */
 @media (max-width: 480px) {
-    /* Adjust general body font size for very small screens */
     body {
         font-size: 14px; /* Smaller base font size for mobile */
     }
-
     nav ul {
         gap: 10px; /* Slightly less gap on very small screens */
         padding: 5px 0;
@@ -163,7 +165,7 @@ footer p {
         font-size: 1.2em; /* Further reduce header P on very small screens */
     }
     section h2 {
-        font-size: 1.5em; /* Adjust section headings */
+        font-size: 1.5em; /* Adjust section headings for very small screens */
     }
 }
 
