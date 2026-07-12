@@ -8,12 +8,12 @@ Check back here regularly for details of our upcoming concerts and public appear
 
 * Sunday 21st June - **Twyford Donkey Derby** - 12:00
 
-* September - **Band Party** - TBD
+* September - **Band Party**
 
-* Sunday 8th November - **Remembrance service** - Twyford - TBD
+* Sunday 8th November - **Remembrance service** - Twyford - 09:30
 
-* Friday 4th December - **Christmas Carols** - Twyford Village - TBD
+* Friday 4th December - **Christmas Carols** - Twyford Village - 17:30
 
-* Thursday 10th December - **Christmas Concert** - Norden Farm - TBD
+* Tuesday 8th December - **Christmas Concert** - Norden Farm - 19:30
 
 If you are organising a local event and would like the Maidenhead Concert Band to perform, please get in touch via our contact page.
