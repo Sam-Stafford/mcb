@@ -11,7 +11,7 @@ Rehearsals are held at [Furze Platt Senior School](https://maps.app.goo.gl/yCiUr
 
 * Spring term - 12th January - 23rd March (excl half term - 16th Feb)
 
-* Summer term - 13th April -  17th July (excl bank holiday on 4th May & half term on 25th May)
+* Summer term - 13th April -  13th July (excl bank holiday on 4th May & half term on 25th May)
 
 * Winter term - 7th September - 7th December (excl half term - 26th Oct)
 
